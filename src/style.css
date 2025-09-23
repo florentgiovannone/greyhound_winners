@@ -1,0 +1,31 @@
+@import "tailwindcss";
+/* Basic styles */
+@theme {
+  --color-gw-purple: #540713;
+  --color-gw-red: #86000D;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p, ol, ul, li,
+figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+#root {
+  min-height: 100vh;
+}
