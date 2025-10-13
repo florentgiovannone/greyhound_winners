@@ -27,7 +27,7 @@ export default function Hero() {
                             </span>
                         </h1>
                         <p className="text-xl lg:text-2xl text-white/90 font-medium leading-relaxed">
-                            Portfolio with a new revenue-driving game
+                            a new revenue-driving game as portfolio 
                         </p>
                     </div>
 
