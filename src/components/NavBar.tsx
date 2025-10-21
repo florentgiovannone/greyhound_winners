@@ -27,15 +27,16 @@ export default function NavBar() {
                             </a>
 
                             {/* Logo - Center */}
+                            <a href="/">
                             <div className="mx-12">
                                 <img src={Logo} alt="Greyhound Winners" className="h-16 object-contain rounded-lg p-3 bg-white/10 backdrop-blur-sm border border-white/20 shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl" />
                             </div>
-
+                            </a>
                             {/* Right Navigation Links */}
                             <a href="#integrations" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium">
                                 Integrations
                             </a>
-                            <a href="#support" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium">
+                            <a href="/form" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium">
                                 Support
                             </a>
                         </div>
