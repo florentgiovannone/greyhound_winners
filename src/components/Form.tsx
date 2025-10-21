@@ -148,7 +148,7 @@ export default function Form() {
                                         >
                                             <option value="" className="bg-gw-purple text-white">Select an option</option>
                                             <option value="general" className="bg-gw-purple text-white">General Inquiry</option>
-                                            <option value="sales" className="bg-gw-purple text-white">Support</option>
+                                            <option value="sales" className="bg-gw-purple text-white">Sales</option>
                                             <option value="product" className="bg-gw-purple text-white">Product Information</option>
                                             <option value="service" className="bg-gw-purple text-white">Service Inquiry</option>
                                             <option value="partnership" className="bg-gw-purple text-white">Partnership</option>
