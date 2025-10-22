@@ -1,18 +1,9 @@
-/* Google Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
-/* Custom Legend Font */
-@font-face {
-  font-family: 'Legend';
-  src: url('../Assets/Fonts/legend-bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+/* Google Font Import - Added weight 900 for extra bold */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* Holding Page Wrapper */
 .holding-page {
-  background-color: #2C1E1B; /* Dark Red-Brown */
+  background-color: #5A1819; /* Dark Red-Brown */
   font-family: 'Lato', sans-serif;
   color: #FFFFFF; /* White */
   min-height: 100vh;
@@ -44,7 +35,7 @@
 
 /* Main Headline */
 .holding-title {
-  font-family: 'Legend', 'Lato', 'Arial Black', sans-serif;
+  font-family: 'Lato', 'Arial Black', sans-serif;
   color: #FFFFFF; /* White */
   text-align: center;
   text-transform: uppercase;
@@ -52,6 +43,7 @@
   font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 900;
+  letter-spacing: 0.05em;
 }
 
 /* Body Text */
