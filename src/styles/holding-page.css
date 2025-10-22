@@ -1,6 +1,16 @@
 /* Google Font Import - Added weight 900 for extra bold */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
+
+@font-face {
+  font-family: 'Legend';
+  src: url('../Assets/Fonts/legend-bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* Holding Page Wrapper */
 .holding-page {
   background-color: #5A1819; /* Dark Red-Brown */
@@ -35,7 +45,7 @@
 
 /* Main Headline */
 .holding-title {
-  font-family: 'Lato', 'Arial Black', sans-serif;
+  font-family: 'Legend', sans-serif;
   color: #FFFFFF; /* White */
   text-align: center;
   text-transform: uppercase;
