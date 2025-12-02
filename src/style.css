@@ -32,7 +32,11 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2 {
+h1, h2, {
+  font-family: 'Legend', sans-serif;
+}
+
+#home, #contact-us {
   font-family: 'Legend', sans-serif;
 }
 
