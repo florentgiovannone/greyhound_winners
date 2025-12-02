@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Legend';
-  src: url('./Assets/Fonts/legend-bold.otf') format('otf');
+  src: url('./Assets/Fonts/legend-bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, {
+h1, h2 {
   font-family: 'Legend', sans-serif;
 }
 

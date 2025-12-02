@@ -6,7 +6,7 @@ import AboutFeatured from "./AboutFeatured"
 import MarketTypes from "./MarketTypes"
 export default function Home() {
     return (
-        <>
+        <div id="home">
             <Hero />
             <VideoSection />
             <AboutFeatured />
@@ -14,6 +14,6 @@ export default function Home() {
             {/* <Metrics />
             <Integrations /> */}
 
-        </>
+        </div>
     )
 }

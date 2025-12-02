@@ -19,7 +19,7 @@ export default function NavBar() {
                     <div className="hidden lg:flex items-center justify-center flex-1">
                         <div className="flex items-center space-x-8">
                             {/* Left Navigation Links */}
-                            <a href="/" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium">
+                            <a href="/" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="home">
                                 Home
                             </a>
 
@@ -30,7 +30,7 @@ export default function NavBar() {
                                 </div>
                             </a>
                             {/* Right Navigation Links */}
-                            <a href="/form" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium">
+                            <a href="/form" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="contact-us">
                                 Contact Us
                             </a>
                         </div>

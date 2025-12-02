@@ -120,7 +120,7 @@ export default function Form() {
     };
 
     return (
-        <div className="bg-gradient-to-b from-gw-purple to-black py-20">
+        <div id="contact-us" className="bg-gradient-to-b from-gw-purple to-black py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                     {/* Contact Information Section */}
