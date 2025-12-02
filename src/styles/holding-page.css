@@ -13,9 +13,9 @@
 
 /* Holding Page Wrapper */
 .holding-page {
-  background-color: #5A1819; /* Dark Red-Brown */
+  background-color: #5A1819; 
   font-family: 'Lato', sans-serif;
-  color: #FFFFFF; /* White */
+  color: #FFFFFF; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
