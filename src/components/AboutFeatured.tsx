@@ -50,7 +50,9 @@ export default function AboutFeatured() {
                             <div className="flex flex-row items-center gap-4 mb-6">
                                 <img src={Four} alt="Greyhound" className="w-6 h-6 flex-shrink-0 lg:w-10 lg:h-10" />
                                 <p className="text-md text-white/90 leading-relaxed max-w-2xl lg:text-lg">
-                                    Suitable for online and retail single and multi-shop estates.                         </div>
+                                    Suitable for online and retail single shops and multi-shop estates.
+                                </p>
+                            </div>
                             <div className="flex flex-row items-center gap-4 mb-8">
                                 <img src={Five} alt="Greyhound" className="w-6 h-6 flex-shrink-0 lg:w-10 lg:h-10" />
                                 <p className="text-md text-white/90 leading-relaxed max-w-2xl lg:text-lg">
