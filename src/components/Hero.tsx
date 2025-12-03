@@ -26,11 +26,11 @@ export default function Hero() {
                     </div>
                     <div className="w-full md:w-1/2">
                         <h1 className="text-3xl font-bold text-white" style={{ marginBottom: '2rem' }}>
-                            A new revenue-driving game as part of your portfolio
+                            A new revenue-driving game as part of your retail and/or online portfolio
                         </h1>
                         <div>
                             <p className="text-md text-white/90 leading-relaxed max-w-2xl" style={{ marginBottom: '2rem' }}>
-                                Featuring authentic historical race footage and fully configurable betting markets, <span className="font-bold">GREYHOUND WINNERS</span> gives operators <span className="font-bold">an unique, innovative, fast-paced, automated virtual racing product</span> tailored to engage every type of customer.                    </p>
+                                Suitable for online and retail single shops and multi-shop estates, <span className="font-bold">GREYHOUND WINNERS</span> gives operators <span className="font-bold">an unique, innovative, fast-paced, automated virtual racing product</span> tailored to engage every type of customer.                    </p>
                         </div>
                     </div>
                 </div>
