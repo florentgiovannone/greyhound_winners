@@ -18,7 +18,7 @@ export default function VideoSection() {
         <>
             <div className="relative w-full h-60 bg-black md:h-110 lg:h-160">
                 <img src={DemoVideo} alt="Demo Video" className="w-full h-full object-cover" />
-                <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 70%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,0.7) 100%)' }}></div>
+                <div className="absolute inset-0" style={{ backgroundImage: '' }}></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-white text-center flex flex-col items-center">
                         <a onClick={toggleModal} target="_blank" rel="noopener noreferrer" className="cursor-pointer">
