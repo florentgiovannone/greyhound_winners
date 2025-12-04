@@ -8,6 +8,7 @@ import HoldingPage from "./components/HoldingPage"
 import AboutTheGame from './components/AboutTheGame'
 import FormNetlify from "./components/FormNetlify"
 import FormSuccess from "./components/FormSuccess"
+import CookieConsent from "./components/CookieConsent"
 
 function App() {
   return (<>
@@ -26,6 +27,7 @@ function App() {
         </div>
       </Router>
     </div>
+    <CookieConsent />
     {/* <div className="min-h-screen">
       <HoldingPage />
     </div> */}

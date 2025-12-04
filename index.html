@@ -272,16 +272,34 @@
       }
     </style>
 
+    <!-- Google Consent Mode - Must load before gtag.js -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      // Set default consent to denied
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        wait_for_update: 500,
+      });
+
+      // Check if user has already consented
+      if (localStorage.getItem("cookie-consent") === "accepted") {
+        gtag("consent", "update", {
+          analytics_storage: "granted",
+        });
+      }
+    </script>
+
     <!-- Google tag (gtag.js) -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-GYNFM2MD66"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
       gtag("js", new Date());
       gtag("config", "G-GYNFM2MD66");
     </script>
