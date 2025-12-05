@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite --open",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -15,19 +19,27 @@
     "@netlify/functions": "^5.1.0",
     "@types/nodemailer": "^7.0.4",
     "nodemailer": "^7.0.11",
+    "pdfjs-dist": "^4.8.69",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-pageflip": "^2.0.3",
     "react-router-dom": "^6.4.3",
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.13",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.7.0",
+    "@vitest/ui": "^2.1.8",
+    "jsdom": "^25.0.1",
     "sass": "^1.56.0",
     "typescript": "^5.9.2",
-    "vite": "^6.3.6"
+    "vite": "^6.3.6",
+    "vitest": "^2.1.8"
   }
 }

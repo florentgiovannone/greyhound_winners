@@ -9,22 +9,32 @@ import AboutTheGame from './components/AboutTheGame'
 import FormNetlify from "./components/FormNetlify"
 import FormSuccess from "./components/FormSuccess"
 import CookieConsent from "./components/CookieConsent"
+import Booklet from "./components/Booklet"
+
+function AppContent() {
+  return (
+    <>
+      <NavBar />
+      <div className="overflow-x-hidden">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/form" element={<Form />} /> */}
+          <Route path="/form" element={<FormNetlify />} />
+          <Route path="/about-the-game" element={<AboutTheGame />} />
+          <Route path="/form-success" element={<FormSuccess />} />
+          <Route path="/booklet" element={<Booklet />} />
+        </Routes>
+        <Footer />
+      </div>
+    </>
+  );
+}
 
 function App() {
   return (<>
     <div className="min-h-screen font-sans leading-relaxed text-gray-800 bg-gradient-to-b from-gw-purple to-black">
-      <Router >
-        <NavBar />
-        <div className="overflow-x-hidden">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            {/* <Route path="/form" element={<Form />} /> */}
-            <Route path="/form" element={<FormNetlify />} />
-            <Route path="/about-the-game" element={<AboutTheGame />} />
-            <Route path="/form-success" element={<FormSuccess />} />
-          </Routes>
-          <Footer />
-        </div>
+      <Router>
+        <AppContent />
       </Router>
     </div>
     <CookieConsent />
