@@ -276,7 +276,7 @@ You can reply directly to this email to respond to ${firstName} ${lastName}.
             </div>
             <div class="footer">
               <p>This is an automated confirmation email.</p>
-              <p>If you have any questions, please contact us at <a href="mailto:info@greyhoundwinners.com">info@greyhoundwinners.com</a></p>
+              <p>If you have any questions, please contact us at <a href="mailto:info@greyhound-winners.com">info@greyhound-winners.com</a></p>
             </div>
           </div>
         </body>
@@ -297,7 +297,7 @@ The Greyhound Winners Team
 
 ---
 This is an automated confirmation email.
-If you have any questions, please contact us at info@greyhoundwinners.com
+If you have any questions, please contact us at info@greyhound-winners.com
     `;
 
             await transporter.sendMail({

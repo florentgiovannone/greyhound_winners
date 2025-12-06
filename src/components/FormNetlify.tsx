@@ -62,7 +62,7 @@ export default function Form() {
                                     </div>
                                     <div>
                                         <p className="text-white font-semibold">Email</p>
-                                        <p className="text-white/70">info@greyhoundwinners.com</p>
+                                        <p className="text-white/70">info@greyhound-winners.com</p>
                                     </div>
                                 </div>
                             </div>
