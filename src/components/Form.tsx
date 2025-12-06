@@ -38,7 +38,7 @@ export default function Form() {
 
             // Prepare template parameters for business email (form submission)
             const businessTemplateParams = {
-                to_email: 'florent.giovannone@abeta.co.uk',
+                to_email: 'info@greyhound-winners.com',
                 from_name: `${formData.firstName} ${formData.lastName}`,
                 from_email: formData.email,
                 first_name: formData.firstName,
@@ -101,7 +101,7 @@ export default function Form() {
             });
         } catch (error: any) {
             console.error('EmailJS error:', error);
-            let errorMsg = 'Failed to send message. Please try again or contact us directly at florent.giovannone@abeta.co.uk';
+            let errorMsg = 'Failed to send message. Please try again or contact us directly at info@greyhound-winners.com';
 
             // Provide more specific error messages
             if (error?.text) {
@@ -152,7 +152,7 @@ export default function Form() {
                                     </div>
                                     <div>
                                         <p className="text-white font-semibold">Email</p>
-                                        <p className="text-white/70">info@greyhoundwinners.com</p>
+                                        <p className="text-white/70">info@greyhound-winners.com</p>
                                     </div>
                                 </div>
                             </div>
