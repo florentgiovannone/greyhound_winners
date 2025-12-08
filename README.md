@@ -37,7 +37,7 @@ npm run dev
 
 The app will open automatically at `http://localhost:5173`
 
-### Available Scripts
+### Available Scriptss
 
 | Command                 | Description                                          |
 | ----------------------- | ---------------------------------------------------- |
