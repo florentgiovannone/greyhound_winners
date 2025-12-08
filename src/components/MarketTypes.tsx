@@ -10,33 +10,69 @@ export default function MarketTypes() {
     const marketTypes = [
         {
             id: 1,
-            name: "Super Match",
-            description: "Predict the exact total of all six winning trap numbers. A simple, fast number game that keeps players watching every result. Why it works: straightforward, engaging, contributes excitement race by race."
+            name: "Super Match Game",
+            description: (
+                <>
+                    Players pick a trap number (1–6) for each of the six races and try to build the longest winning sequence they can. Every consecutive correct call increases the payout, with even two in a row returning a win. Hit all six for the maximum return.
+                    <br /><br />
+                    <strong>Player Appeal:</strong> simple race-by-race choices, escalating excitement, and strong player engagement across the full sequence.
+                </>
+            )
         },
         {
             id: 2,
-            name: "Catch A Match",
-            description: "Players try to spot repeating trap patterns across the six races. If the same trap number appears again in the right combination, they win. Why it works: easy to follow, exciting pattern reveals, strong number-player appeal, and configurable margins."
+            name: "Catch-A-Match",
+            description: (
+                <>
+                    Catch-A-Match challenges players to spot patterns in the winning trap numbers over the six-race run. From triples and quads to ladders, mixed formations and full sequences, players win when their chosen pattern appears.
+                    <br /><br />
+                    <strong>Player Appeal:</strong> highly visual, number-driven, and full of unique formations that keep players watching for emerging trends.
+                </>
+            )
         },
         {
             id: 3,
-            name: "Trap Winning Most",
-            description: "Players pick whether low (1–2), mid (3–4) or high (5–6) traps will produce the most wins across all six races. Why it works: very simple, clear groupings, stays exciting across the full event."
+            name: "Trap Numbers Winning Most",
+            description: (
+                <>
+                    Players predict what will deliver the most wins across the six races: High (5–6), Low (1–2), Odd/Even, or a specific Top Trap. If their selection ends the sequence with the highest number of wins, they win.
+                    <br /><br />
+                    <strong>Player Appeal:</strong> clear groupings, flexible betting options, and a race-long contest that keeps every result meaningful.
+                </>
+            )
         },
         {
             id: 4,
-            name: "Winning Traps",
-            description: "Players predict the combined total of all six winning traps. Every race contributes to the final number, keeping interest high from start to finish. Why it works: number-based, fast to understand, continuous involvement."
+            name: "Winning Traps Total",
+            description: (
+                <>
+                    Players predict the total sum of the winning trap numbers across all six races. They can choose a specific total, a range, or whether the final figure will be odd or even. If the final tally matches their prediction, they win.
+                    <br /><br />
+                    <strong>Player Appeal:</strong> straightforward totals betting, constant involvement, and strong appeal for number-focused players.
+                </>
+            )
         },
         {
             id: 5,
             name: "Play Your Dogs Right",
-            description: "A higher-or-lower style game based on trap outcomes across the races. Players follow each result and see if the next trap continues the pattern. Why it works: familiar concept, fun prediction style, easy for any customer."
+            description: (
+                <>
+                    Players predict whether each race will be won by a High (5–6), Middle (3–4), or Low (1–2) trap and try to build the longest unbroken sequence of correct calls. The longer the run, the bigger the potential payout.
+                    <br /><br />
+                    <strong>Player Appeal:</strong> fast decisions, pattern-spotting fun, and rolling momentum across each race.
+                </>
+            )
         },
         {
             id: 6,
-            name: "Parlays",
-            description: "A classic accumulator-style selection. Players follow their picks across all six races with the chance to land singles, doubles, trebles or a full six-race sweep. Why it works: familiar betting format, big win potential, great for regular players."
+            name: "Parlays & Multi Bets",
+            description: (
+                <>
+                    Traditional Betting offers classic greyhound wagering, allowing players to place Singles or build accumulator-style Parlays and Multi Bets across the six races. Returns are calculated using the dividend for each winning selection.
+                    <br /><br />
+                    <strong>Player Appeal:</strong> familiar formats, full flexibility, and strong appeal for regular bettors looking for bigger combination wins.
+                </>
+            )
         }
     ];
 
