@@ -10,6 +10,7 @@ import FormNetlify from "./components/FormNetlify"
 import FormSuccess from "./components/FormSuccess"
 import CookieConsent from "./components/CookieConsent"
 import Booklet from "./components/Booklet"
+import FAQ from "./components/FAQ"
 
 function AppContent() {
   return (
@@ -23,6 +24,7 @@ function AppContent() {
           <Route path="/about-the-game" element={<AboutTheGame />} />
           <Route path="/form-success" element={<FormSuccess />} />
           <Route path="/booklet" element={<Booklet />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />
       </div>

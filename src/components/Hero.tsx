@@ -32,6 +32,9 @@ export default function Hero() {
                             <p className="text-md text-white/90 leading-relaxed max-w-2xl" style={{ marginBottom: '2rem' }}>
                                 Suitable for online and retail single shops and multi-shop estates, <span className="font-bold">GREYHOUND WINNERS</span> gives operators <span className="font-bold">an unique, innovative, fast-paced, automated virtual racing product</span> tailored to engage every type of customer.                    </p>
                         </div>
+                        <h2 className="text-2xl font-bold text-white" style={{ marginTop: '2rem' }}>
+                            Certified by GLI - guarantees fair play.
+                        </h2>
                     </div>
                 </div>
                 <div className="flex justify-center mb-8">

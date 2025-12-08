@@ -30,7 +30,7 @@ export default function MarketTypes() {
         },
         {
             id: 5,
-            name: "Traditional Parplays & Doubles",
+            name: "Parlays",
             description: "A classic accumulator-style selection. Players follow their picks across all six races with the chance to land singles, doubles, trebles or a full six-race sweep. Why it works: familiar betting format, big win potential, great for regular players."
         },
         {

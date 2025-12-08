@@ -30,6 +30,9 @@ export default function NavBar() {
                                 </div>
                             </a>
                             {/* Right Navigation Links */}
+                            <a href="/faq" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="faq">
+                                FAQ
+                            </a>
                             <a href="/form" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="contact-us">
                                 Contact Us
                             </a>
@@ -71,6 +74,15 @@ export default function NavBar() {
                             id="home"
                         >
                             Home
+                        </a>
+                        <a
+                            href="/faq"
+                            className="block px-6 py-2 text-white hover:text-grey-neutral hover:bg-white/10 transition-all duration-300 font-medium"
+                            onClick={() => setIsMenuOpen(false)}
+                            aria-label="FAQ"
+                            id="faq"
+                        >
+                            FAQ
                         </a>
                         <a
                             href="/form"
