@@ -19,8 +19,8 @@ export default function NavBar() {
                     <div className="hidden lg:flex items-center justify-center flex-1">
                         <div className="flex items-center space-x-8">
                             {/* Left Navigation Links */}
-                            <a href="/" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="home">
-                                Home
+                            <a href="/faq" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="faq">
+                                FAQ
                             </a>
 
                             {/* Logo - Center */}
@@ -30,9 +30,6 @@ export default function NavBar() {
                                 </div>
                             </a>
                             {/* Right Navigation Links */}
-                            <a href="/faq" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="faq">
-                                FAQ
-                            </a>
                             <a href="/form" className="text-white hover:text-grey-neutral transition-colors duration-300 font-medium" id="contact-us">
                                 Contact Us
                             </a>
@@ -66,15 +63,6 @@ export default function NavBar() {
                 {/* Mobile Menu */}
                 <div className={`lg:hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}>
                     <div className="py-4 space-y-4 bg-white/5 backdrop-blur-sm rounded-lg mt-2 border border-white/10">
-                        <a
-                            href="/"
-                            className="block px-6 py-2 text-white hover:text-grey-neutral hover:bg-white/10 transition-all duration-300 font-medium"
-                            onClick={() => setIsMenuOpen(false)}
-                            aria-label="Home"
-                            id="home"
-                        >
-                            Home
-                        </a>
                         <a
                             href="/faq"
                             className="block px-6 py-2 text-white hover:text-grey-neutral hover:bg-white/10 transition-all duration-300 font-medium"
