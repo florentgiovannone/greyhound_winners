@@ -16,8 +16,8 @@ export default function VideoSection() {
     }
     return (
         <>
-            <div className="relative w-full h-60 bg-black md:h-110 lg:h-160">
-                <img src={DemoVideo} alt="Demo Video" className="w-full h-full object-cover" />
+            <div className="relative w-full h-70 bg-black md:h-110 lg:h-160">
+                <img src={DemoVideo} alt="Demo Video" className="w-full h-full object-cover object-top" />
                 <div className="absolute inset-0" style={{ backgroundImage: '' }}></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-white text-center flex flex-col items-center">

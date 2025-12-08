@@ -101,9 +101,8 @@ export default function FAQ() {
                                     {faq.question}
                                 </span>
                                 <svg
-                                    className={`w-5 h-5 text-white flex-shrink-0 transition-transform duration-300 ${
-                                        openIndex === index ? 'transform rotate-180' : ''
-                                    }`}
+                                    className={`w-5 h-5 text-white flex-shrink-0 transition-transform duration-300 ${openIndex === index ? 'transform rotate-180' : ''
+                                        }`}
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -112,11 +111,10 @@ export default function FAQ() {
                                 </svg>
                             </button>
                             <div
-                                className={`transition-all duration-300 ease-in-out ${
-                                    openIndex === index
+                                className={`transition-all duration-300 ease-in-out ${openIndex === index
                                         ? 'max-h-[1000px] opacity-100'
                                         : 'max-h-0 opacity-0'
-                                } overflow-hidden`}
+                                    } overflow-hidden`}
                             >
                                 <div className="px-6 pb-4 text-white/90 leading-relaxed">
                                     {typeof faq.answer === 'string' ? (

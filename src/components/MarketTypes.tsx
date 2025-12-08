@@ -10,33 +10,33 @@ export default function MarketTypes() {
     const marketTypes = [
         {
             id: 1,
+            name: "Super Match",
+            description: "Predict the exact total of all six winning trap numbers. A simple, fast number game that keeps players watching every result. Why it works: straightforward, engaging, contributes excitement race by race."
+        },
+        {
+            id: 2,
             name: "Catch A Match",
             description: "Players try to spot repeating trap patterns across the six races. If the same trap number appears again in the right combination, they win. Why it works: easy to follow, exciting pattern reveals, strong number-player appeal, and configurable margins."
         },
         {
-            id: 2,
+            id: 3,
             name: "Trap Winning Most",
             description: "Players pick whether low (1–2), mid (3–4) or high (5–6) traps will produce the most wins across all six races. Why it works: very simple, clear groupings, stays exciting across the full event."
         },
         {
-            id: 3,
+            id: 4,
             name: "Winning Traps",
             description: "Players predict the combined total of all six winning traps. Every race contributes to the final number, keeping interest high from start to finish. Why it works: number-based, fast to understand, continuous involvement."
         },
         {
-            id: 4,
+            id: 5,
             name: "Play Your Dogs Right",
             description: "A higher-or-lower style game based on trap outcomes across the races. Players follow each result and see if the next trap continues the pattern. Why it works: familiar concept, fun prediction style, easy for any customer."
         },
         {
-            id: 5,
+            id: 6,
             name: "Parlays",
             description: "A classic accumulator-style selection. Players follow their picks across all six races with the chance to land singles, doubles, trebles or a full six-race sweep. Why it works: familiar betting format, big win potential, great for regular players."
-        },
-        {
-            id: 6,
-            name: "Super Match",
-            description: "Predict the exact total of all six winning trap numbers. A simple, fast number game that keeps players watching every result. Why it works: straightforward, engaging, contributes excitement race by race."
         }
     ];
 
